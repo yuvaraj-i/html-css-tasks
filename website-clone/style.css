@@ -1,0 +1,155 @@
+:root {
+    --black: #373737;
+    --red: #DC2E27;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--black);
+    font-size: 14px;
+}
+
+.outer {
+    padding: 400px;
+}
+
+.heading-align {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.text-color {
+    color: var(--red);
+}
+
+.bottom-container {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 250px;
+}
+
+.bottom-container img {
+    float: left;
+}
+
+.bottom-container p {
+    box-sizing: border-box;
+    margin: 0px 40px 0px 350px;
+    width: 500px;
+}
+
+.line-years {
+    border-top: 2px solid var(--black);
+    margin: 40px 90px 80px 90px;
+}
+
+.line-years ul {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.line-years li {
+    display: inline;
+    text-decoration: none;
+}
+
+.details {
+    padding: 14px 0px 14px 0px;
+    background-color: var(--black);
+
+}
+
+.details-container {
+    display: grid;
+    grid-template-columns: repeat(5, 16%);
+    color: white;
+    gap: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.red-boder {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    box-sizing: border-box;
+    column-gap: 8px;
+}
+
+.circular {
+    height: 50px;
+    width: 50px;
+    background-color: var(--red);
+    border-radius: 50%;
+    padding: 15px;
+    text-align: center;
+}
+
+.circular img {
+    margin: auto;
+}
+
+.red-boder .space-between p {
+    padding-bottom: 6px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+footer {
+    background-color: var(--red);
+    color: white;
+    font-size: 12px;
+}
+
+.icons {
+    float: left;
+    padding: 40px;
+}
+
+.icons-align {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px 100px 0px 300px;
+}
+
+.icons li {
+    display: inline;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.tour {
+    border-left: solid white 1px;
+    margin-left: 350px;
+    padding: 20px;
+    height: 80px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+footer nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding: 30px;
+}

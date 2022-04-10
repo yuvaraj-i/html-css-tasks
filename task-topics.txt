@@ -1,0 +1,6 @@
+str-slice()
+unique()
+comparable()
+percentage()
+random()
+hue saturation lightness

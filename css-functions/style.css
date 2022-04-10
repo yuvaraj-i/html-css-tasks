@@ -1,0 +1,35 @@
+:root {
+    --blue: blue;
+    --red: red;
+}
+
+.radial{
+    height: 200px;
+    width: 200px;
+    background-color: radial-gradient(circle, red, green, blue);
+}
+
+.linear{
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    transition-timing-function: linear;
+}
+
+/* .counter{
+    
+} */
+
+.repeating{
+    height: 200px;
+    width: 300px;
+    background: repeating-conic-gradient(red, orange, yellow, green, blue 50%);
+    color: white;  
+}
+
+.var{
+    height: 200px;
+    width: 200px;
+    background-color: var(--red);
+    color: white;
+}
